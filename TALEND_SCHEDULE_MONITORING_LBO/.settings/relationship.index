@@ -616,7 +616,11 @@
     "version" : "Latest",
     "type" : "context"
   }, {
-    "id" : "TEST_STAGE:_AbN0UP-DEe2rAdG96oV77g",
+    "id" : "TALEND_SCHEDULE_MONITORING_LBO:_SOPQgBP8Ee6kAfP3rWHHWg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "TALEND_SCHEDULE_MONITORING_LBO:_vf9BwP7tEe2F1JKxinVLRg",
     "version" : "Latest",
     "type" : "job"
   }, {
@@ -641,10 +645,6 @@
     "type" : "job"
   }, {
     "id" : "TEST_STAGE:_pRPcwP7tEe2F1JKxinVLRg",
-    "version" : "Latest",
-    "type" : "job"
-  }, {
-    "id" : "TEST_STAGE:_vf9BwP7tEe2F1JKxinVLRg",
     "version" : "Latest",
     "type" : "job"
   } ]
