@@ -38,6 +38,9 @@
     "parameterList" : [ {
       "id" : "_id90QCJHEe-phIRx3BnEzA",
       "name" : "connection_delimiter"
+    }, {
+      "id" : "_1kP8UfMBEe2VAeSx2XR4SQ",
+      "name" : "connection_configFilePath"
     } ]
   } ]
 }
