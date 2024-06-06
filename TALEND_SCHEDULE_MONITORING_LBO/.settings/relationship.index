@@ -921,9 +921,5 @@
     "id" : "_PpZ3YPpBEe28hPCwF9P5qQ",
     "version" : "Latest",
     "type" : "context"
-  }, {
-    "id" : "built-in",
-    "version" : "Latest",
-    "type" : "context"
   } ]
 } ]
