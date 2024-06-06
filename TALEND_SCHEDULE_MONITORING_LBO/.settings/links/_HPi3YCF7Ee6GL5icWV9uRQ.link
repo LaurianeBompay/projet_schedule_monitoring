@@ -32,5 +32,12 @@
       "id" : "_PpmrsfpBEe28hPCwF9P5qQ",
       "name" : "connection_talend_cloud"
     } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_1kGyYPMBEe2VAeSx2XR4SQ",
+    "parameterList" : [ {
+      "id" : "_id90QCJHEe-phIRx3BnEzA",
+      "name" : "connection_delimiter"
+    } ]
   } ]
 }
