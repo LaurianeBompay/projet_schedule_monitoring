@@ -10,6 +10,7 @@
     <contextParameter comment="" internalId="_YUcBtxDmEe6LxaRnJWAXuA" name="connection_DbMonitoring_ODS" prompt="connection_DbMonitoring_ODS?" promptNeeded="false" repositoryContextId="_ISGtIPMDEe2VAeSx2XR4SQ" type="id_String" value=""/>
     <contextParameter comment="" internalId="_YUcBuBDmEe6LxaRnJWAXuA" name="connection_DbMonitoring_DW" prompt="connection_DbMonitoring_DW?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter comment="" internalId="_YUcBuRDmEe6LxaRnJWAXuA" name="connection_talend_cloud" prompt="connection_talend_cloud?" promptNeeded="false" repositoryContextId="_PpZ3YPpBEe28hPCwF9P5qQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_7wAJACPjEe-zxbPxk-UM6Q" name="connection_delimiter" prompt="connection_delimiter?" promptNeeded="false" repositoryContextId="_1kGyYPMBEe2VAeSx2XR4SQ" type="id_String" value="=="/>
   </context>
   <context confirmationNeeded="false" name="Production">
     <contextParameter comment="" internalId="_YUcBuhDmEe6LxaRnJWAXuA" name="connection_configFilePath" prompt="connection_configFilePath?" promptNeeded="false" repositoryContextId="_1kGyYPMBEe2VAeSx2XR4SQ" type="id_String" value="C:\Conf\talend_monitoring.ini"/>
@@ -22,6 +23,7 @@
     <contextParameter comment="" internalId="_YUcBwRDmEe6LxaRnJWAXuA" name="connection_DbMonitoring_ODS" prompt="connection_DbMonitoring_ODS?" promptNeeded="false" repositoryContextId="_ISGtIPMDEe2VAeSx2XR4SQ" type="id_String" value=""/>
     <contextParameter comment="" internalId="_YUcBwhDmEe6LxaRnJWAXuA" name="connection_DbMonitoring_DW" prompt="connection_DbMonitoring_DW?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter comment="" internalId="_YUcBwxDmEe6LxaRnJWAXuA" name="connection_talend_cloud" prompt="connection_talend_cloud?" promptNeeded="false" repositoryContextId="_PpZ3YPpBEe28hPCwF9P5qQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_7wAJASPjEe-zxbPxk-UM6Q" name="connection_delimiter" prompt="connection_delimiter?" promptNeeded="false" repositoryContextId="_1kGyYPMBEe2VAeSx2XR4SQ" type="id_String" value="=="/>
   </context>
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" internalId="_YUcBxBDmEe6LxaRnJWAXuA" name="connection_configFilePath" prompt="connection_configFilePath?" promptNeeded="false" repositoryContextId="_1kGyYPMBEe2VAeSx2XR4SQ" type="id_String" value="C:\Conf\talend_monitoring.ini"/>
@@ -34,6 +36,7 @@
     <contextParameter comment="" internalId="_YUcByxDmEe6LxaRnJWAXuA" name="connection_DbMonitoring_ODS" prompt="connection_DbMonitoring_ODS?" promptNeeded="false" repositoryContextId="_ISGtIPMDEe2VAeSx2XR4SQ" type="id_String" value=""/>
     <contextParameter comment="" internalId="_YUcBzBDmEe6LxaRnJWAXuA" name="connection_DbMonitoring_DW" prompt="connection_DbMonitoring_DW?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter comment="" internalId="_YUcBzRDmEe6LxaRnJWAXuA" name="connection_talend_cloud" prompt="connection_talend_cloud?" promptNeeded="false" repositoryContextId="_PpZ3YPpBEe28hPCwF9P5qQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_7wAJAiPjEe-zxbPxk-UM6Q" name="connection_delimiter" prompt="connection_delimiter?" promptNeeded="false" repositoryContextId="_1kGyYPMBEe2VAeSx2XR4SQ" type="id_String" value="=="/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
@@ -78,7 +81,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:zMpFA0Y3Nc9jVL7jaFJQK6WOevJf3FUeASmYpcGJ"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:8egyOGyuYleMT4T9pKR0xAOxvEbNZ8jGDmNYHkcC"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -113,7 +116,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:FNRcIyCJ4iI7EVbkBH1tSYXDfJHZf9o/rOl2t2b5"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:nkhrlxBb10/mCxheGbCliXVCugzhRN99C+IHKjq5"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -161,7 +164,7 @@
     <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;dbo&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;ODS_schedule_monitoring&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;sa&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:GpRA/8TaTbMZkD4C6YvF0/NwbyiVuve4dfJPZYtZEdZoNRrzGfJu2GHH"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ESjWNImtHdVo1b3cG+BVUChSwXsYifBbdeF9oflDUmMegAL6yYXjh+rd"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_FglDUAE-Ee6bd8lFAV1BkQ - Workspace"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;Workspace&quot;"/>
@@ -284,7 +287,7 @@
     <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;dbo&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;ODS_schedule_monitoring&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;sa&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:v4WO80EafZY2d9JvibCPoPAuIxjtiLeMN8fTaIYJiOVGPqpKfYV2lD5R"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:xt0SSjSFNS0PGn9fP/AdqEVFgyV+HmqT3VN4jnriC9ECtQBftJ1R2Tlj"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_FglDUAE-Ee6bd8lFAV1BkQ - environnement"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;environnement&quot;"/>
@@ -396,7 +399,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:aj+3aX55ZQwQaP/JFjdY/GFXBpSp9Y+QsByfoNw6"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:XwHTYfSFnPe0eb2ae7XPeS8z0A1iv/MjRJ85hQ+M"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;DIM_WORKSPACE&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
@@ -530,7 +533,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;dbo&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;ODS_schedule_monitoring&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;sa&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:JQ3L0HL163diT0LS4bEIS/fRTTrpExg3m0xDfkvfrD4hFnCdaPlo5f04"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:eH5yOrORBX6gAdUWIemTIaCXjq2VU/UlqcJLZfmA6CgbgokvOIUVBwS9"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
@@ -560,7 +563,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;dbo&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;DW_schedule_monitoring&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;sa&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:vSxInTbhiSP8/1MMWcVveqAEwfFNSmgH/Pqja+b1x91/6aJIi9+J24O4"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:9wMWlyI1iuX9LD0KcfQJDe8Gr2pZrtduhO1sGC9VZhWgDRBOUG4nN2NI"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
@@ -692,13 +695,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_d092e7a0-83fa-41bb-a417-f458695d2833"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>QG+QIIp45DPrALAGfcFk4s7SWti2UvN4jnoZ1aAn+aiPSAyBflGq/N91v+4MqiZT+QOqxNEexoZa&#13;
-fyML5cH1cQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_6777f812-22a6-4684-98b1-f0cb57328844"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>LYRzCkWifq8NRPlAR2oLOdIxCQXsitGUs7zN/5dgMUlwB1nfnPXNIuy6Ah1qLIwGe5ffsH0CLDbl&#13;
-phMGby85ZQ==</DigestValue></Reference></SignedInfo><SignatureValue>ICoCy/gU6iA02IMti6wJPw58oekykjHMaUHuxKUlAnYwbBmpRmKs2v7MaVmc4Bb+b/ZS+cp9i7UK&#13;
-L/RIUfupdlNNoDNJ2zytdsMJlgjzLYnpx4Qik9HaAhnp+iXu2VY/ew04PztEmdvvGoLEWGOSCcEG&#13;
-2HFd/QD7PgiMlbdQgJHobSF06Yoel8yIxqtDILQqnrWtd1v7DBb8ct5445iE9RTYC/cnZiLYTLCm&#13;
-rzO46ew3GDjQxR1VRER5WB9A5iALX2l61Gvwi4za3w773SfIWZP80K0qqipN+4Kxv6CypTvdE5VY&#13;
-UHDsE0qDq6XKFRxeAwZW3LF3jifvcG2ZroG9jA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_16307ed6-7deb-46ed-9ce9-dfe7215a8711"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>W4CGHYLQFVP8SSXoqnhyBdOyRfaP844Rn6cyrs+SHa66ohy7eVZtnJjJpcfKIsjrZCH1nMW7x3TK&#13;
+DMZ6V2OEPQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_deaafd53-3173-474e-8640-e67d358d2c48"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>DxyDJL5RrvikD05OWZAftIyis+qbml3KxufcIaz0EdVi5+kptbuFgoQ4upGRwcQUVLmjtnO/7bwe&#13;
+ruZh0V2E8w==</DigestValue></Reference></SignedInfo><SignatureValue>LbLvcMWQDnZTtX8T/4KXMoZ7+tnE4vfIl53vafdQV0np7irMwTx3nHoN4Uv6c8A1GgDC14aunliP&#13;
+9JhAnxeoUJ4L5ZybjTAJftX82Eofb6xYDlzjLHPZ21FpG9kEBk0/N5gbs1BT5Dan+uXlydNgFDZE&#13;
+aX9ljtRkTfp6gX3GB45fgHYn5oDyBi0U+HeB6yoNLlbtYVZGt1wJstblcke+bphXcCM03XzhkN+j&#13;
+gGWLYWakck1JiwPpRS3ZUpQU0dWF/vXiQnbA6ElZexi3q8xt76M9sFzn5M9oLMMj5FF7n/RTBHP3&#13;
+LIR3d6FeHtBUq7Xy8GnhUzT9DVXj7X9SvHGjjQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -720,4 +723,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_6777f812-22a6-4684-98b1-f0cb57328844" Target="#_d092e7a0-83fa-41bb-a417-f458695d2833"><Timestamp>2024-06-06 09:03:24</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_deaafd53-3173-474e-8640-e67d358d2c48" Target="#_16307ed6-7deb-46ed-9ce9-dfe7215a8711"><Timestamp>2024-06-06 09:05:34</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

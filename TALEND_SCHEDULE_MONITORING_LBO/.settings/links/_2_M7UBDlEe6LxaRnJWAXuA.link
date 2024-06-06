@@ -6,6 +6,9 @@
     "parameterList" : [ {
       "id" : "_1kP8UfMBEe2VAeSx2XR4SQ",
       "name" : "connection_configFilePath"
+    }, {
+      "id" : "_id90QCJHEe-phIRx3BnEzA",
+      "name" : "connection_delimiter"
     } ]
   }, {
     "contextName" : "Developpment",
@@ -45,6 +48,9 @@
     "parameterList" : [ {
       "id" : "_1kP8UfMBEe2VAeSx2XR4SQ",
       "name" : "connection_configFilePath"
+    }, {
+      "id" : "_id90QCJHEe-phIRx3BnEzA",
+      "name" : "connection_delimiter"
     } ]
   }, {
     "contextName" : "Production",
@@ -84,6 +90,9 @@
     "parameterList" : [ {
       "id" : "_1kP8UfMBEe2VAeSx2XR4SQ",
       "name" : "connection_configFilePath"
+    }, {
+      "id" : "_id90QCJHEe-phIRx3BnEzA",
+      "name" : "connection_delimiter"
     } ]
   }, {
     "contextName" : "Default",
