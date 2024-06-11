@@ -1,0 +1,14 @@
+{
+  "itemId" : "_HhmBQCfVEe-W6amcxNym3Q",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_1kGyYPMBEe2VAeSx2XR4SQ",
+    "parameterList" : [ {
+      "id" : "_1kP8UfMBEe2VAeSx2XR4SQ",
+      "name" : "connection_configFilePath"
+    }, {
+      "id" : "_id90QCJHEe-phIRx3BnEzA",
+      "name" : "connection_delimiter"
+    } ]
+  } ]
+}
