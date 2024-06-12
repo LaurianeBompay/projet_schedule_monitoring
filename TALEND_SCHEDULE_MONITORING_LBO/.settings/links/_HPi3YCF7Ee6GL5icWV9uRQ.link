@@ -37,10 +37,10 @@
     "repoId" : "_1kGyYPMBEe2VAeSx2XR4SQ",
     "parameterList" : [ {
       "id" : "_id90QCJHEe-phIRx3BnEzA",
-      "name" : "connection_delimiter"
+      "name" : "connection_custom_configFileDelimiter"
     }, {
       "id" : "_1kP8UfMBEe2VAeSx2XR4SQ",
-      "name" : "connection_configFilePath"
+      "name" : "connection_custom_configFilePath"
     } ]
   } ]
 }

@@ -287,13 +287,13 @@
         "show" : true,
         "field" : "FILE",
         "name" : "IMPLICIT_TCONTEXTLOAD_FILE",
-        "value" : "context.connection_configFilePath",
+        "value" : "context.connection_custom_configFilePath",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "TEXT",
         "name" : "FIELDSEPARATOR",
-        "value" : "context.connection_delimiter",
+        "value" : "context.connection_custom_configFileDelimiter",
         "contextMode" : false
       }, {
         "show" : true,
@@ -388,7 +388,7 @@
         "show" : true,
         "field" : "PASSWORD",
         "name" : "PASS_IMPLICIT_CONTEXT",
-        "value" : "enc:system.encryption.key.v1:3Gfen8//AU5D5hiXTrkojjs45Y8Ef/cgsjvadGu5",
+        "value" : "enc:system.encryption.key.v1:t43kTyJLsP0ToF6GuYycak11ArizXCG4pPwy8Cct",
         "contextMode" : false
       }, {
         "show" : true,

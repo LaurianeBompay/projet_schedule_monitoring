@@ -5,7 +5,7 @@
     "repoId" : "_1kGyYPMBEe2VAeSx2XR4SQ",
     "parameterList" : [ {
       "id" : "_1kP8UfMBEe2VAeSx2XR4SQ",
-      "name" : "connection_configFilePath"
+      "name" : "connection_custom_configFilePath"
     } ]
   }, {
     "contextName" : "Default",
