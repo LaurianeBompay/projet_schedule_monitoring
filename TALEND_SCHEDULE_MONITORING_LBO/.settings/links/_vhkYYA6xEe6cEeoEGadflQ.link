@@ -5,32 +5,32 @@
     "repoId" : "_ISGtIPMDEe2VAeSx2XR4SQ",
     "parameterList" : [ {
       "id" : "_ISZoEvMDEe2VAeSx2XR4SQ",
-      "name" : "connection_DbMonitoring_Password"
+      "name" : "DbMonitoring_Password"
     }, {
       "id" : "_ISZoFfMDEe2VAeSx2XR4SQ",
-      "name" : "connection_DbMonitoring_AdditionalParams"
+      "name" : "DbMonitoring_AdditionalParams"
     }, {
       "id" : "_ISZoF_MDEe2VAeSx2XR4SQ",
-      "name" : "connection_DbMonitoring_Login"
+      "name" : "DbMonitoring_Login"
     }, {
       "id" : "_ISZoFPMDEe2VAeSx2XR4SQ",
-      "name" : "connection_DbMonitoring_Port"
+      "name" : "DbMonitoring_Port"
     }, {
       "id" : "_ISZoFvMDEe2VAeSx2XR4SQ",
-      "name" : "connection_DbMonitoring_Schema"
+      "name" : "DbMonitoring_Schema"
     }, {
       "id" : "_ISZoE_MDEe2VAeSx2XR4SQ",
-      "name" : "connection_DbMonitoring_Server"
+      "name" : "DbMonitoring_Server"
     }, {
       "id" : "_ISZoEfMDEe2VAeSx2XR4SQ",
-      "name" : "connection_DbMonitoring_ODS"
+      "name" : "DbMonitoring_ODS"
     } ]
   }, {
     "contextName" : "Default",
     "repoId" : "_PpZ3YPpBEe28hPCwF9P5qQ",
     "parameterList" : [ {
       "id" : "_PpmrsfpBEe28hPCwF9P5qQ",
-      "name" : "connection_talend_cloud"
+      "name" : "talend_cloud"
     } ]
   }, {
     "contextName" : "Default",
