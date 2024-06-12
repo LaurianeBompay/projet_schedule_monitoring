@@ -415,10 +415,6 @@
     "id" : "_FglDUAE-Ee6bd8lFAV1BkQ",
     "version" : "Latest",
     "type" : "property"
-  }, {
-    "id" : "_FglDUAE-Ee6bd8lFAV1BkQ - Trigger",
-    "version" : "Latest",
-    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
@@ -670,14 +666,6 @@
     "id" : "built-in",
     "version" : "Latest",
     "type" : "context"
-  }, {
-    "id" : "_FglDUAE-Ee6bd8lFAV1BkQ - Trigger",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_FglDUAE-Ee6bd8lFAV1BkQ - logAudit",
-    "version" : "Latest",
-    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
