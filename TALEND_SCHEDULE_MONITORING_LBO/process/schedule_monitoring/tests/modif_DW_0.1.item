@@ -55,7 +55,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:BV+KHnvTnNfb9hWvOsH3N3njSsChUU/WzrPEjjdb"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:030XhkYZH7TEcHNNzV82VsPSdR5zYR582h/fHTbJ"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -90,7 +90,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:4Sgl5Yn1tFw5Ve0H+2UT89mxNIuCZQ79dy3R4kSF"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:Q+qm1d3HaLsFDJa3Voz4Jp+tez7qRg/rnKvfJhON"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -136,7 +136,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;dbo&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;ODS_schedule_monitoring&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;sa&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:u1LH1iHkoAM3qNGwrp86JZlMKoWoaKVcBkTfSnRiCzUGxGgsS6MMvjUU"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:DeauIEuwGzoM2HfHmPSHDsOnjl5jxmfqotKjk8hTc2KXGuUIVbSfR27p"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
@@ -162,7 +162,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;dbo&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;DW_schedule_monitoring&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;sa&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:66QBx+u9oxgM1eiKaz8fnPs//x+E7OT/Hrg3mydKVEpqW4zU41w6ZSQB"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:+O36QDfWfk6A1aktPs9oALw6rj8sz1+0QHB5S6siv+V9BuSnC1EfEKWy"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
@@ -189,7 +189,7 @@
     <elementParameter field="TEXT" name="DB_SCHEMA" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:WglWxwuOOnw8R5eYdn8Ev+gBxpKy1S4GMqPQUU/8"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:s//GKnoGjdXZZD7FwwGUTTudkAtZYuh+2NwuSUix"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;DIM_MODIFICATION&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -327,7 +327,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:x+jXIHcjntm9a645sb+uA2SWYpI/7uDMBIztLZah"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:R21xa8EOxw5IPnFxKBhudq39uXLkyCaqzgf0ymcv"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;DIM_MODIFICATION&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
@@ -457,7 +457,7 @@
     <elementParameter field="TEXT" name="DB_SCHEMA" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:JgfQduzfNr3kjyMNqhK0Eh9ZGEJL5/gtKdghAS0I"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:TidVjhItz5zmCuvah+KF7MdTM1SL7BbD7/ZzDnpp"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;DIM_MODIFICATION&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -574,7 +574,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;DW_schedule_monitoring&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;sa&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:nSNLHFVzi+8PUVmhYbJAYpjDyTrpKHZpMr2SO3MUmIYhnTicTWConan0"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:SChAH2xoOXqNwJAhpINlYklhPROKrruiV3F4SolgObOhDKoeo7ZCXpgY"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;FAIT_PLANIFICATION&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
@@ -701,13 +701,13 @@
     <elementParameter field="TEXT" name="DB_SCHEMA" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:RKDRv5dO0cXTag8RYBctOS32/h+hrk0ENrlzI4Lj"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:tdwuCBGZ3wEBqd31a6esF9nHwLpWuCOUjr/C7h7t"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;FAIT_PLANIFICATION&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT FAIT_PLANIFICATION.idFait, DIM_DECLENCHEUR.Nom,DIM_DECLENCHEUR.Type_trigger&#13;&#10;FROM DW_schedule_monitoring.dbo.FAIT_PLANIFICATION&#13;&#10;LEFT JOIN DW_schedule_monitoring.dbo.DIM_MODIFICATION ON DW_schedule_monitoring.dbo.FAIT_PLANIFICATION.idModification = DW_schedule_monitoring.dbo.DIM_MODIFICATION.idModification&#13;&#10;LEFT JOIN DW_schedule_monitoring.dbo.DIM_WORKSPACE ON DW_schedule_monitoring.dbo.FAIT_PLANIFICATION.idWorkspace = DW_schedule_monitoring.dbo.DIM_WORKSPACE.idWorkspace&#13;&#10;LEFT JOIN DW_schedule_monitoring.dbo.DIM_CALENDRIER ON DW_schedule_monitoring.dbo.FAIT_PLANIFICATION.idTemps = DW_schedule_monitoring.dbo.DIM_CALENDRIER.idTemps&#13;&#10;LEFT JOIN DW_schedule_monitoring.dbo.DIM_PROGRAMMATION ON DW_schedule_monitoring.dbo.FAIT_PLANIFICATION.idProgrammation = DW_schedule_monitoring.dbo.DIM_PROGRAMMATION.idProgrammation&#13;&#10;LEFT JOIN DW_schedule_monitoring.dbo.DIM_DECLENCHEUR ON DW_schedule_monitoring.dbo.FAIT_PLANIFICATION.idDeclencheur = DW_schedule_monitoring.dbo.DIM_DECLENCHEUR.idDeclencheur&#13;&#10;LEFT JOIN DW_schedule_monitoring.dbo.DIM_EXECUTABLE ON DW_schedule_monitoring.dbo.FAIT_PLANIFICATION.idExecutable = DW_schedule_monitoring.dbo.DIM_EXECUTABLE.idExecutable &#13;&#10;group by DIM_DECLENCHEUR.nom, DIM_EXECUTABLE.nom, DIM_DECLENCHEUR.est_actif, DIM_MODIFICATION.TypeModif,DIM_PROGRAMMATION.datePrevue&#13;&#10;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT FAIT_PLANIFICATION.idFait, DIM_DECLENCHEUR.Nom,DIM_DECLENCHEUR.Type_trigger, DIM_DECLENCHEUR.version&#13;&#10;FROM DW_schedule_monitoring.dbo.FAIT_PLANIFICATION&#13;&#10;LEFT JOIN DW_schedule_monitoring.dbo.DIM_MODIFICATION ON DW_schedule_monitoring.dbo.FAIT_PLANIFICATION.idModification = DW_schedule_monitoring.dbo.DIM_MODIFICATION.idModification&#13;&#10;LEFT JOIN DW_schedule_monitoring.dbo.DIM_WORKSPACE ON DW_schedule_monitoring.dbo.FAIT_PLANIFICATION.idWorkspace = DW_schedule_monitoring.dbo.DIM_WORKSPACE.idWorkspace&#13;&#10;LEFT JOIN DW_schedule_monitoring.dbo.DIM_CALENDRIER ON DW_schedule_monitoring.dbo.FAIT_PLANIFICATION.idTemps = DW_schedule_monitoring.dbo.DIM_CALENDRIER.idTemps&#13;&#10;LEFT JOIN DW_schedule_monitoring.dbo.DIM_PROGRAMMATION ON DW_schedule_monitoring.dbo.FAIT_PLANIFICATION.idProgrammation = DW_schedule_monitoring.dbo.DIM_PROGRAMMATION.idProgrammation&#13;&#10;LEFT JOIN DW_schedule_monitoring.dbo.DIM_DECLENCHEUR ON DW_schedule_monitoring.dbo.FAIT_PLANIFICATION.idDeclencheur = DW_schedule_monitoring.dbo.DIM_DECLENCHEUR.idDeclencheur&#13;&#10;LEFT JOIN DW_schedule_monitoring.dbo.DIM_EXECUTABLE ON DW_schedule_monitoring.dbo.FAIT_PLANIFICATION.idExecutable = DW_schedule_monitoring.dbo.DIM_EXECUTABLE.idExecutable &#13;&#10;group by DIM_DECLENCHEUR.nom, DIM_EXECUTABLE.nom, DIM_DECLENCHEUR.est_actif, DIM_MODIFICATION.TypeModif,DIM_PROGRAMMATION.datePrevue&#13;&#10;&quot;"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
@@ -792,13 +792,13 @@
     <elementParameter field="TEXT" name="DB_SCHEMA" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:ApJN43Mrw1KH/F71yfNrU4JT7hBpH+RHIYuGMyKx"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:zR4V9BZWVQ+h2sD4EWHB/jpbMcN3X91cqoIzqKpy"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;FAIT_PLANIFICATION&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT FAIT_PLANIFICATION.idFait, DIM_DECLENCHEUR.Nom,DIM_DECLENCHEUR.Type_trigger&#13;&#10;FROM DW_schedule_monitoring.dbo.FAIT_PLANIFICATION&#13;&#10;LEFT JOIN DW_schedule_monitoring.dbo.DIM_MODIFICATION ON DW_schedule_monitoring.dbo.FAIT_PLANIFICATION.idModification = DW_schedule_monitoring.dbo.DIM_MODIFICATION.idModification&#13;&#10;LEFT JOIN DW_schedule_monitoring.dbo.DIM_WORKSPACE ON DW_schedule_monitoring.dbo.FAIT_PLANIFICATION.idWorkspace = DW_schedule_monitoring.dbo.DIM_WORKSPACE.idWorkspace&#13;&#10;LEFT JOIN DW_schedule_monitoring.dbo.DIM_CALENDRIER ON DW_schedule_monitoring.dbo.FAIT_PLANIFICATION.idTemps = DW_schedule_monitoring.dbo.DIM_CALENDRIER.idTemps&#13;&#10;LEFT JOIN DW_schedule_monitoring.dbo.DIM_PROGRAMMATION ON DW_schedule_monitoring.dbo.FAIT_PLANIFICATION.idProgrammation = DW_schedule_monitoring.dbo.DIM_PROGRAMMATION.idProgrammation&#13;&#10;LEFT JOIN DW_schedule_monitoring.dbo.DIM_DECLENCHEUR ON DW_schedule_monitoring.dbo.FAIT_PLANIFICATION.idDeclencheur = DW_schedule_monitoring.dbo.DIM_DECLENCHEUR.idDeclencheur&#13;&#10;LEFT JOIN DW_schedule_monitoring.dbo.DIM_EXECUTABLE ON DW_schedule_monitoring.dbo.FAIT_PLANIFICATION.idExecutable = DW_schedule_monitoring.dbo.DIM_EXECUTABLE.idExecutable&#13;&#10;where DIM_MODIFICATION.TypeModif like '%delete%'&#13;&#10;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT FAIT_PLANIFICATION.idFait, DIM_DECLENCHEUR.Nom,DIM_DECLENCHEUR.Type_trigger, DIM_DECLENCHEUR.version&#13;&#10;FROM DW_schedule_monitoring.dbo.FAIT_PLANIFICATION&#13;&#10;LEFT JOIN DW_schedule_monitoring.dbo.DIM_MODIFICATION ON DW_schedule_monitoring.dbo.FAIT_PLANIFICATION.idModification = DW_schedule_monitoring.dbo.DIM_MODIFICATION.idModification&#13;&#10;LEFT JOIN DW_schedule_monitoring.dbo.DIM_WORKSPACE ON DW_schedule_monitoring.dbo.FAIT_PLANIFICATION.idWorkspace = DW_schedule_monitoring.dbo.DIM_WORKSPACE.idWorkspace&#13;&#10;LEFT JOIN DW_schedule_monitoring.dbo.DIM_CALENDRIER ON DW_schedule_monitoring.dbo.FAIT_PLANIFICATION.idTemps = DW_schedule_monitoring.dbo.DIM_CALENDRIER.idTemps&#13;&#10;LEFT JOIN DW_schedule_monitoring.dbo.DIM_PROGRAMMATION ON DW_schedule_monitoring.dbo.FAIT_PLANIFICATION.idProgrammation = DW_schedule_monitoring.dbo.DIM_PROGRAMMATION.idProgrammation&#13;&#10;LEFT JOIN DW_schedule_monitoring.dbo.DIM_DECLENCHEUR ON DW_schedule_monitoring.dbo.FAIT_PLANIFICATION.idDeclencheur = DW_schedule_monitoring.dbo.DIM_DECLENCHEUR.idDeclencheur&#13;&#10;LEFT JOIN DW_schedule_monitoring.dbo.DIM_EXECUTABLE ON DW_schedule_monitoring.dbo.FAIT_PLANIFICATION.idExecutable = DW_schedule_monitoring.dbo.DIM_EXECUTABLE.idExecutable&#13;&#10;where DIM_MODIFICATION.TypeModif like '%delete%'&#13;&#10;&quot;"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
@@ -1074,13 +1074,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_edb55e2c-31ef-4053-9f6f-e92dc493a1e0"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>0CXRDaOmSr/EJX/bhZRjIvPYDsnRI8bfQIpbu0q8qnnktcdxhGFcgUGZaHDaQDx5tKZc5rv+GAVr&#13;
-8zDb5qN+ZA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_32331c24-184f-4695-81af-c5063ee247bb"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>a01+OcCZvV6LIRYJNz23YsBFLNKC2q0M3CdX/ABb10TbA1qpt1G1O7PDaUFrzP/xl7kQwqOUvIy/&#13;
-R3gym6JHtg==</DigestValue></Reference></SignedInfo><SignatureValue>bzr5M2LtRIffQ50e93JqzPzwelx55ojP8JD7eaPC0XB+MQx0wjMEvL59PaXY74+HUMOS0257CxnI&#13;
-E/pHHTzkKavGtI2AnzxaO+nsgb9gZMyJWTvRPGQN/ok7JMfpTStioAYU27UbAHJmqx5W1t8hbole&#13;
-OGBlKj33+vmTvT1/AEXHRfG6JRehvBeX8wyDnyGRtFt2wT7jDSyGapLRCqQQo3Dbnrrm1+EnOt8C&#13;
-pgK8SELi4KDoSB1CorFZjmuxJEVXoxKSCJlL1l+PkTZeuYQfBt7balQWxPraxUsKDCNsy6FktJ8r&#13;
-UVRnaWsXnnz0yyhkbHopuezokCGyauN0j+PerQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_64bb0e87-f6b6-4b05-ad7a-38bb0c59d631"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>8HXo6URcM2JRWQWusfsItAsFKDpuCSla5SJTF+BnC3QQhi7ZGzy2fHieCmshjS+Jv1xGG+UAZLU9&#13;
+sL2/OC5mvQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_78a4a755-a85c-4c1d-900d-1a68120a2c21"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>6fwDuqcHWDZ5KrBEbfYnhGUsTsPk0qebAHEi7D2BwijmFD8HWrdyz8DmVRKOXVJW4yvxQ4G/rqgV&#13;
+ZPLzKroqQg==</DigestValue></Reference></SignedInfo><SignatureValue>mmPQqTXcDLOAT3sTNPDddpf9DWbmCtoQd1zCunmnXIjfHiTvYRli9rGZKEcgKEJBb0XsbxUzR/6p&#13;
+2vgYBzWmhtYvynLuV3O+Mf/E+yDgB1txYlZNvzlKtJxXa/fdlOPOqaeGIVoQ5ZLLhDmAGFYvGAO9&#13;
+hIdOCxfQjkEfjLvpVWaM1jbkgDZvCnoppt/aQiEo/QEfiErTOyFhhzYZdhZ6H0IJGxwpT4Fyy+cy&#13;
+0Ieu69EJcbOC2Z1i7BG/QyePtGVALTI9LEE1tENHAV4CjuUryeubbS3J9d1Y5haGOryeoas4UtvA&#13;
+A0bwkAeg5E27aIMFv2kPNdiHRGvK+k0RGKgsSg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1102,4 +1102,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_32331c24-184f-4695-81af-c5063ee247bb" Target="#_edb55e2c-31ef-4053-9f6f-e92dc493a1e0"><Timestamp>2024-06-14 15:12:49</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_78a4a755-a85c-4c1d-900d-1a68120a2c21" Target="#_64bb0e87-f6b6-4b05-ad7a-38bb0c59d631"><Timestamp>2024-06-17 09:25:45</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
