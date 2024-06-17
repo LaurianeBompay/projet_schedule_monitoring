@@ -57,7 +57,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:vo41LzbqzEvIcTkIy3Bqe7SOgmRTxYJNlFxx+hFr"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:PxTr7m/pjvQfG+LBpkbfjewZv+soiC03CgmXL+vP"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -92,7 +92,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:1JStR6vgq29jKxZqfTDAq8cTyP8wY94+GFnDhkDD"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:xaJYt8dxHe4P9mxDqRT6HUjzl6nhXVtGfmGabRYI"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -140,7 +140,7 @@
     <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;dbo&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;ODS_schedule_monitoring&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;sa&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:3WH1uQN1j0ZcBiBDNkIHkVSWdtwt9L3Zjc8kdsBGvwhcKl8Gt4BoPmla"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:zMA7QbWgJkyMt3Bwh54VKIAZM9y4vm8sFdAX/fkhAVeq3fIiyK65iblZ"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_FglDUAE-Ee6bd8lFAV1BkQ - logAudit"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;logAudit&quot;"/>
@@ -787,11 +787,9 @@
       <column comment="" key="false" length="-1" name="atTimes_intervalle" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables name="Var" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="TalendDate.TO_DATE(row10.startDate,&quot;yyyy-MM-dd&quot;) " name="var1" type="id_Date"/>
-        <mapperTableEntries expression="DqStringHandling.safeConcat(row10.atTimes_time,row10.atTime_times,' ') " name="time" type="id_String"/>
-        <mapperTableEntries expression="DqStringHandling.safeConcat(row10.atDays_day,row10.atDays_days,' ') " name="var2" type="id_String"/>
       </varTables>
       <outputTables name="copyOftrigger_p" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="row10.nom " name="nom" nullable="true" type="id_String"/>
@@ -800,11 +798,11 @@
         <mapperTableEntries expression="Var.var1 " name="startDate" nullable="true" type="id_Date"/>
         <mapperTableEntries expression="row10.timeZone " name="timeZone" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row10.atTimes_type " name="atTimes_type" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="Var.time " name="atTimes_time" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Relational.ISNULL(row10.atTimes_time)?row10.atTime_times:row10.atTimes_time " name="atTimes_time" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row10.atTimes_startTime " name="atTimes_startTime" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row10.atTimes_endTime " name="atTimes_endTime" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row10.atDays_type " name="atDays_type" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="Var.var2 " name="atDays_time" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Relational.ISNULL(row10.atDays_day)?row10.atDays_days:row10.atDays_day " name="atDays_time" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row10.id " name="planif_id" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row10.executable " name="executable_id" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row10.cronExpression " name="cronExpression" nullable="true" type="id_String"/>
@@ -1062,7 +1060,7 @@
     <elementParameter field="CHECK" name="NEED_AUTH" value="true"/>
     <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" value="OAUTH2_BEARER"/>
     <elementParameter field="TEXT" name="AUTH_USERNAME" show="false" value="&quot;lauriane.bompay@nfr.decivision.com&quot;"/>
-    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" show="false" value="enc:system.encryption.key.v1:6ivWRlSxBsy1Nz2gb5l8LHmWHeXs+3m+mSoS20fPd3z2C+bQxgQ="/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" show="false" value="enc:system.encryption.key.v1:29t4xGvAxKivN89ptbjaTXwQLCqu5kR9RgKiL2NnMEFHhKhi3xI="/>
     <elementParameter field="TEXT" name="AUTH_BEARER_TOKEN" value="context.talend_cloud"/>
     <elementParameter field="CHECK" name="NEED_AUTHORIZATION" show="false" value="false"/>
     <elementParameter field="TEXT" name="ROLE" show="false" value="&quot;&quot;"/>
@@ -1091,7 +1089,7 @@
     <elementParameter field="TEXT" name="PROXY_HOST" show="false" value="&quot;127.0.0.1&quot;"/>
     <elementParameter field="TEXT" name="PROXY_PORT" show="false" value="8080"/>
     <elementParameter field="TEXT" name="PROXY_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:JuwKK5GyPRT8mEWf5Eih9jPuy9jeAdLYhTXk8tdj"/>
+    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:yX55ItWBvZ0NrIhx5Z37EgWqrbYEJC68Jz/29KJ4"/>
     <elementParameter field="TEXT" name="ARRAY_KEYS" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="LABEL" value="API_TMC_GET"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -1410,7 +1408,7 @@
     <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;dbo&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;ODS_schedule_monitoring&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;sa&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:8sKgeAvlJVVf65FoDfqE6Sf06DgPnmJQZkqpxUuyBzf39UmoPJDzpl3E"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ahc0amwEWHamWTMhXSt6jRmBOWnvmpjcMi8ywLsi5mOlWrwIMcbdTU4B"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_FglDUAE-Ee6bd8lFAV1BkQ - Trigger"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;Trigger&quot;"/>
@@ -1597,7 +1595,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;ODS_schedule_monitoring&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
     <elementParameter field="TEXT" name="USER" value="&quot;sa&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:lpqJveKvYcih/z2ZDwAmM5QE3JTXS1Vc2dTLoFlvOZQ5OhOPA/euIQct"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:yS9YfJ/W481KLSr69AJDCZ37jA4rBLof1ddPVexHCV4gn6WTzcf/KDEP"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MODIFICATION&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
@@ -1831,7 +1829,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;ODS_schedule_monitoring&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
     <elementParameter field="TEXT" name="USER" value="&quot;sa&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:1tb7v8KlZt+yWIOy7Mqhd9FSC/+BrP3kpqTPwBtH6G3DJz+18AebeYJU"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:1Jv1M1RRZJSIwl3fxvr8T7zaDLiQlZnoQggCu99ZFL8f0+wovGP/1DCM"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;Trigger&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
@@ -1996,7 +1994,7 @@
     <elementParameter field="TEXT" name="DB_SCHEMA" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:LJNb2HaCknznLQSqbQYX+zmik4IswU17RCuPOEaX"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:RDx1mnHhWx32aL2wAF1bxZcxuBdi5eljSqcstHjJ"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;Trigger&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -2082,7 +2080,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;ODS_schedule_monitoring&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
     <elementParameter field="TEXT" name="USER" value="&quot;sa&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:3HIlR0Id1EeaSBCjCF1+gL1TIkomiqOvs3E4Ef4+Ge/wJggP2fzxK89i"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:sX9mDKJJ6GjbLdwLsIVFxBlmYfK7eC0jp65tT/TCa3b+TbZGD+N4FtF/"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;Trigger&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
@@ -2175,7 +2173,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;dbo&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;ODS_schedule_monitoring&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;sa&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:9b/5OMxVZxbxgPnwaCO/x5WnyeEH7mGO6JmbPJZVpPkrhxbCpa0I/oOM"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:w5Oec5og48rvkQKtaSZW23SA/JgG09EhmAxbxm8lFjf3F2d4xYPKyi6A"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
@@ -2426,13 +2424,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_086e29c9-14a9-4ce0-a801-b8ef528303e0"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Ffk/JyFJ2GftL0WeubFI0KtF2jXurkZVjLDZbUPgij6ZvgVxZNBtvojUZ6ERu4uGPWei+MdzQnl1&#13;
-srWeG5Fk9g==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_872ef2e1-29cb-48dc-bfc5-6fcd1ffd6758"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>r1GX3bq2WRsl64PwWvwpgl11IQXnWrgEZoEIcKM8+GAoxoU/Dao0nSVjYQ+WhLGZOnPqPUDKFQxp&#13;
-wPWrgwSdyA==</DigestValue></Reference></SignedInfo><SignatureValue>a008NPuPdkpr/jNOKF1PL/k/fkIBuXy4k1Omqn+f3+6MuHEVc6RWxsqJ3Y3wSldAAOCflvBnz+1D&#13;
-W+UPIYdTb9TpBZhqSOTm0ueRxAG6sx60JKjnXqOMCJhQ6r4l3VlKEHsaWZTmPra+eu0qRMKge4r3&#13;
-RkTKwQSxFP3MEj6cxUT+r8c6cRn+vm+RKg3XLDEU0oim6NieAAI6NzHbltIucGNfqDjvzn0/H1FH&#13;
-yljMkKPp3B6n+LoRNV75/dox7+m/oRyiqiFa1bK6koBg7M1B1P9XBcRk6crQYtnISsHSRulqbZiZ&#13;
-6sIaLzn6M/s8WVcpSmxMcjiYxul30/N1UMBQNw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_a82b8d76-3d95-4acd-80a5-b85c77679535"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>BvnBo98v+Guj18YCxVutztChSXHzEEw1FR++Yj3hyAZauE3yG91z/4azxf+4bOZUoFYgTGE7usWp&#13;
+0rOGY7uc+w==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_0e03addc-6231-4f90-bd01-be4828f66c33"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>6ifBO5N4r3zLNfr32cN4ZWcKClgcZNBJ/m8s8qguinNOgLmetYBOXC56cmoM9zw6ixPEvy84V0GS&#13;
+Ko568Bqsyw==</DigestValue></Reference></SignedInfo><SignatureValue>BuPImyHHqvv6Jg6yA65W1xEeaXA7Gh6R+74ZrRS+22SoGzNXyKe5cqbVpLYFDq8lwaXaPrL4K1aZ&#13;
+aFVtQOf29cpLTczH89JXlXPD9lVYCQlU9rYf5j5V6R54QCr/Jaa9eDBYDth7ORYgljrfE3Svm+9B&#13;
+FNq+NWVeAHFghYl9KxoKrYRfKqIezofxmGjb5XRiGihRZbaDTb649MrUcAZy6PXwWBAbueV1AQLZ&#13;
+XYcfyvPJLk9eanl2bRc7IpHH0dhGsxHjG8lEigA5KLRmlTZm6QEOql32RGuh7vma75YMjZb/oBUm&#13;
+cr4rfX7UpnVjve/5gizQBbNIAG8Sk5gLTGTkXA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -2454,4 +2452,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_872ef2e1-29cb-48dc-bfc5-6fcd1ffd6758" Target="#_086e29c9-14a9-4ce0-a801-b8ef528303e0"><Timestamp>2024-06-12 15:08:13</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_0e03addc-6231-4f90-bd01-be4828f66c33" Target="#_a82b8d76-3d95-4acd-80a5-b85c77679535"><Timestamp>2024-06-17 14:31:20</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
