@@ -41,6 +41,9 @@
     }, {
       "id" : "_ISZoEfMDEe2VAeSx2XR4SQ",
       "name" : "DbMonitoring_ODS"
+    }, {
+      "id" : "_Jtga8CigEe-1ZpOr8NYbZg",
+      "name" : "DbMonitoring_DW"
     } ]
   } ]
 }
