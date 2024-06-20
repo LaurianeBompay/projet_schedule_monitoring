@@ -61,6 +61,53 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_5uGx8C7UEe-emY_tZ4RGNA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_1kGyYPMBEe2VAeSx2XR4SQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_ISGtIPMDEe2VAeSx2XR4SQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_PpZ3YPpBEe28hPCwF9P5qQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_FglDUAE-Ee6bd8lFAV1BkQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_hu7AUBEAEe6LxaRnJWAXuA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_FglDUAE-Ee6bd8lFAV1BkQ - Executable",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_FglDUAE-Ee6bd8lFAV1BkQ - Trigger",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_FglDUAE-Ee6bd8lFAV1BkQ - Workspace",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_hu7AUBEAEe6LxaRnJWAXuA - DIM_CALENDRIER",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_hu7AUBEAEe6LxaRnJWAXuA - FAIT_PLANIFICATION",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_8ijrMCohEe-1yv7S-ODpTA",
     "version" : "0.1",
     "type" : "job"
@@ -396,7 +443,7 @@
     "version" : "Latest",
     "type" : "context"
   }, {
-    "id" : "TEST_STAGE:_EZTOABmvEe6Fg8-Iivmz4w",
+    "id" : "TALEND_SCHEDULE_MONITORING_LBO:_5uGx8C7UEe-emY_tZ4RGNA",
     "version" : "Latest",
     "type" : "job"
   }, {
