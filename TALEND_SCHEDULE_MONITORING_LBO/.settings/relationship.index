@@ -175,10 +175,6 @@
     "id" : "_FglDUAE-Ee6bd8lFAV1BkQ - environnement",
     "version" : "Latest",
     "type" : "schema"
-  }, {
-    "id" : "_hu7AUBEAEe6LxaRnJWAXuA - DIM_WORKSPACE",
-    "version" : "Latest",
-    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
