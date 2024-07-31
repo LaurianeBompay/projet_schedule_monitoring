@@ -43,6 +43,16 @@
       "name" : "talend_cloud"
     } ]
   }, {
+    "contextName" : "Developpment",
+    "repoId" : "_FDNRcE8gEe-kqJyhoVQrIw",
+    "parameterList" : [ {
+      "id" : "_FDgMYU8gEe-kqJyhoVQrIw",
+      "name" : "URL_API_TMC"
+    }, {
+      "id" : "_QRN6oU8jEe-kqJyhoVQrIw",
+      "name" : "chemin_workspace"
+    } ]
+  }, {
     "contextName" : "Production",
     "repoId" : "_1kGyYPMBEe2VAeSx2XR4SQ",
     "parameterList" : [ {
@@ -85,6 +95,16 @@
       "name" : "talend_cloud"
     } ]
   }, {
+    "contextName" : "Production",
+    "repoId" : "_FDNRcE8gEe-kqJyhoVQrIw",
+    "parameterList" : [ {
+      "id" : "_FDgMYU8gEe-kqJyhoVQrIw",
+      "name" : "URL_API_TMC"
+    }, {
+      "id" : "_QRN6oU8jEe-kqJyhoVQrIw",
+      "name" : "chemin_workspace"
+    } ]
+  }, {
     "contextName" : "Default",
     "repoId" : "_1kGyYPMBEe2VAeSx2XR4SQ",
     "parameterList" : [ {
@@ -125,6 +145,16 @@
     "parameterList" : [ {
       "id" : "_PpmrsfpBEe28hPCwF9P5qQ",
       "name" : "talend_cloud"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_FDNRcE8gEe-kqJyhoVQrIw",
+    "parameterList" : [ {
+      "id" : "_FDgMYU8gEe-kqJyhoVQrIw",
+      "name" : "URL_API_TMC"
+    }, {
+      "id" : "_QRN6oU8jEe-kqJyhoVQrIw",
+      "name" : "chemin_workspace"
     } ]
   } ]
 }
