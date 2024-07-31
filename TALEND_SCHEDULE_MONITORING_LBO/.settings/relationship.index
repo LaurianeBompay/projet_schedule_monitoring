@@ -917,6 +917,10 @@
     "version" : "Latest",
     "type" : "context"
   }, {
+    "id" : "TALEND_SCHEDULE_MONITORING_LBO:_Xdo7wE54Ee-_uYx5pQmogw",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
     "id" : "TALEND_SCHEDULE_MONITORING_LBO:_qwM40E2MEe-mY4Fm8wxgPQ",
     "version" : "Latest",
     "type" : "job"
