@@ -49,17 +49,8 @@
       "id" : "_FDgMYU8gEe-kqJyhoVQrIw",
       "name" : "URL_API_TMC"
     }, {
-      "id" : "_FDgMYk8gEe-kqJyhoVQrIw",
-      "name" : "URL_AuditLog"
-    }, {
-      "id" : "_QRN6ok8jEe-kqJyhoVQrIw",
-      "name" : "chemin_environnement"
-    }, {
       "id" : "_QRN6oE8jEe-kqJyhoVQrIw",
       "name" : "chemin_artefact"
-    }, {
-      "id" : "_QRN6oU8jEe-kqJyhoVQrIw",
-      "name" : "chemin_workspace"
     } ]
   } ]
 }
