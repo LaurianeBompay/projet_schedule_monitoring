@@ -42,5 +42,12 @@
       "id" : "_ISZoEfMDEe2VAeSx2XR4SQ",
       "name" : "DbMonitoring_ODS"
     } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_FDNRcE8gEe-kqJyhoVQrIw",
+    "parameterList" : [ {
+      "id" : "_FDgMYk8gEe-kqJyhoVQrIw",
+      "name" : "URL_AuditLog"
+    } ]
   } ]
 }
