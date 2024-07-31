@@ -42,5 +42,18 @@
       "id" : "_PpmrsfpBEe28hPCwF9P5qQ",
       "name" : "talend_cloud"
     } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_FDNRcE8gEe-kqJyhoVQrIw",
+    "parameterList" : [ {
+      "id" : "_FDgMYU8gEe-kqJyhoVQrIw",
+      "name" : "URL_API_TMC"
+    }, {
+      "id" : "_VUmS8U85Ee-kqJyhoVQrIw",
+      "name" : "chemin_execution_taches"
+    }, {
+      "id" : "_VUmS8E85Ee-kqJyhoVQrIw",
+      "name" : "chemin_execution_plans"
+    } ]
   } ]
 }
