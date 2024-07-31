@@ -762,10 +762,6 @@
     "version" : "Latest",
     "type" : "schema"
   }, {
-    "id" : "_hu7AUBEAEe6LxaRnJWAXuA - DIM_WORKSPACE",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
     "id" : "_hu7AUBEAEe6LxaRnJWAXuA - FAIT_PLANIFICATION",
     "version" : "Latest",
     "type" : "schema"
