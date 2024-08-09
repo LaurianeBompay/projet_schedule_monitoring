@@ -1,52 +1,61 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Developpment" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" name="Developpment">
-    <contextParameter comment="" internalId="_oXcigA9KEe6Np4xhilnAMg" name="connection_configFilePath" prompt="connection_configFilePath?" promptNeeded="false" repositoryContextId="_1kGyYPMBEe2VAeSx2XR4SQ" type="id_String" value="C:\Conf\talend_monitoring.ini"/>
-    <contextParameter comment="" internalId="_oXcigQ9KEe6Np4xhilnAMg" name="connection_DbMonitoring_Password" prompt="connection_DbMonitoring_Password?" promptNeeded="false" repositoryContextId="_ISGtIPMDEe2VAeSx2XR4SQ" type="id_Password" value=""/>
-    <contextParameter comment="" internalId="_oXcigg9KEe6Np4xhilnAMg" name="connection_DbMonitoring_AdditionalParams" prompt="connection_DbMonitoring_AdditionalParams?" promptNeeded="false" repositoryContextId="_ISGtIPMDEe2VAeSx2XR4SQ" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_oXcigw9KEe6Np4xhilnAMg" name="connection_DbMonitoring_Login" prompt="connection_DbMonitoring_Login?" promptNeeded="false" repositoryContextId="_ISGtIPMDEe2VAeSx2XR4SQ" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_oXcihA9KEe6Np4xhilnAMg" name="connection_DbMonitoring_Port" prompt="connection_DbMonitoring_Port?" promptNeeded="false" repositoryContextId="_ISGtIPMDEe2VAeSx2XR4SQ" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_oXcihQ9KEe6Np4xhilnAMg" name="connection_DbMonitoring_Schema" prompt="connection_DbMonitoring_Schema?" promptNeeded="false" repositoryContextId="_ISGtIPMDEe2VAeSx2XR4SQ" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_oXcihg9KEe6Np4xhilnAMg" name="connection_DbMonitoring_Server" prompt="connection_DbMonitoring_Server?" promptNeeded="false" repositoryContextId="_ISGtIPMDEe2VAeSx2XR4SQ" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_oXcihw9KEe6Np4xhilnAMg" name="connection_DbMonitoring_ODS" prompt="connection_DbMonitoring_ODS?" promptNeeded="false" repositoryContextId="_ISGtIPMDEe2VAeSx2XR4SQ" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_oXciiA9KEe6Np4xhilnAMg" name="connection_talend_cloud" prompt="connection_talend_cloud?" promptNeeded="false" repositoryContextId="_PpZ3YPpBEe28hPCwF9P5qQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oXcigA9KEe6Np4xhilnAMg" name="connection_custom_configFilePath" prompt="connection_custom_configFilePath?" promptNeeded="false" repositoryContextId="_1kGyYPMBEe2VAeSx2XR4SQ" type="id_String" value="C:\Conf\talend_monitoring.ini"/>
+    <contextParameter comment="" internalId="_oXcigQ9KEe6Np4xhilnAMg" name="DbMonitoring_Password" prompt="DbMonitoring_Password?" promptNeeded="false" repositoryContextId="_ISGtIPMDEe2VAeSx2XR4SQ" type="id_Password" value=""/>
+    <contextParameter comment="" internalId="_oXcigg9KEe6Np4xhilnAMg" name="DbMonitoring_AdditionalParams" prompt="DbMonitoring_AdditionalParams?" promptNeeded="false" repositoryContextId="_ISGtIPMDEe2VAeSx2XR4SQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oXcigw9KEe6Np4xhilnAMg" name="DbMonitoring_Login" prompt="DbMonitoring_Login?" promptNeeded="false" repositoryContextId="_ISGtIPMDEe2VAeSx2XR4SQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oXcihA9KEe6Np4xhilnAMg" name="DbMonitoring_Port" prompt="DbMonitoring_Port?" promptNeeded="false" repositoryContextId="_ISGtIPMDEe2VAeSx2XR4SQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oXcihQ9KEe6Np4xhilnAMg" name="DbMonitoring_Schema" prompt="DbMonitoring_Schema?" promptNeeded="false" repositoryContextId="_ISGtIPMDEe2VAeSx2XR4SQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oXcihg9KEe6Np4xhilnAMg" name="DbMonitoring_Server" prompt="DbMonitoring_Server?" promptNeeded="false" repositoryContextId="_ISGtIPMDEe2VAeSx2XR4SQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oXcihw9KEe6Np4xhilnAMg" name="DbMonitoring_ODS" prompt="DbMonitoring_ODS?" promptNeeded="false" repositoryContextId="_ISGtIPMDEe2VAeSx2XR4SQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oXciiA9KEe6Np4xhilnAMg" name="talend_cloud" prompt="talend_cloud?" promptNeeded="false" repositoryContextId="_PpZ3YPpBEe28hPCwF9P5qQ" type="id_String" value=""/>
     <contextParameter comment="" internalId="_70psoA9LEe6Np4xhilnAMg" name="IDPlanif" prompt="IDPlanif?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter comment="" internalId="_70psoQ9LEe6Np4xhilnAMg" name="toDate" prompt="toDate?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter comment="" internalId="_TaIjABl6Ee6Fg8-Iivmz4w" name="versionPlanif" prompt="versionPlanif?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_AT3MgCJ1Ee-phIRx3BnEzA" name="connection_delimiter" prompt="connection_delimiter?" promptNeeded="false" repositoryContextId="_1kGyYPMBEe2VAeSx2XR4SQ" type="id_String" value="=="/>
+    <contextParameter comment="" internalId="_AT3MgCJ1Ee-phIRx3BnEzA" name="connection_custom_configFileDelimiter" prompt="connection_custom_configFileDelimiter?" promptNeeded="false" repositoryContextId="_1kGyYPMBEe2VAeSx2XR4SQ" type="id_String" value="=="/>
+    <contextParameter comment="" internalId="_NZAOAE88Ee-kqJyhoVQrIw" name="URL_API_TMC" prompt="URL_API_TMC?" promptNeeded="false" repositoryContextId="_FDNRcE8gEe-kqJyhoVQrIw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_NZAOAU88Ee-kqJyhoVQrIw" name="chemin_trigger" prompt="chemin_trigger?" promptNeeded="false" repositoryContextId="_FDNRcE8gEe-kqJyhoVQrIw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_egxnQE88Ee-kqJyhoVQrIw" name="chemin_programmation" prompt="chemin_programmation?" promptNeeded="false" repositoryContextId="_FDNRcE8gEe-kqJyhoVQrIw" type="id_String" value=""/>
   </context>
   <context confirmationNeeded="false" name="Production">
-    <contextParameter comment="" internalId="_oXciiQ9KEe6Np4xhilnAMg" name="connection_configFilePath" prompt="connection_configFilePath?" promptNeeded="false" repositoryContextId="_1kGyYPMBEe2VAeSx2XR4SQ" type="id_String" value="C:\Conf\talend_monitoring.ini"/>
-    <contextParameter comment="" internalId="_oXciig9KEe6Np4xhilnAMg" name="connection_DbMonitoring_Password" prompt="connection_DbMonitoring_Password?" promptNeeded="false" repositoryContextId="_ISGtIPMDEe2VAeSx2XR4SQ" type="id_Password" value=""/>
-    <contextParameter comment="" internalId="_oXciiw9KEe6Np4xhilnAMg" name="connection_DbMonitoring_AdditionalParams" prompt="connection_DbMonitoring_AdditionalParams?" promptNeeded="false" repositoryContextId="_ISGtIPMDEe2VAeSx2XR4SQ" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_oXcijA9KEe6Np4xhilnAMg" name="connection_DbMonitoring_Login" prompt="connection_DbMonitoring_Login?" promptNeeded="false" repositoryContextId="_ISGtIPMDEe2VAeSx2XR4SQ" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_oXcijQ9KEe6Np4xhilnAMg" name="connection_DbMonitoring_Port" prompt="connection_DbMonitoring_Port?" promptNeeded="false" repositoryContextId="_ISGtIPMDEe2VAeSx2XR4SQ" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_oXcijg9KEe6Np4xhilnAMg" name="connection_DbMonitoring_Schema" prompt="connection_DbMonitoring_Schema?" promptNeeded="false" repositoryContextId="_ISGtIPMDEe2VAeSx2XR4SQ" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_oXcijw9KEe6Np4xhilnAMg" name="connection_DbMonitoring_Server" prompt="connection_DbMonitoring_Server?" promptNeeded="false" repositoryContextId="_ISGtIPMDEe2VAeSx2XR4SQ" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_oXcikA9KEe6Np4xhilnAMg" name="connection_DbMonitoring_ODS" prompt="connection_DbMonitoring_ODS?" promptNeeded="false" repositoryContextId="_ISGtIPMDEe2VAeSx2XR4SQ" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_oXcikQ9KEe6Np4xhilnAMg" name="connection_talend_cloud" prompt="connection_talend_cloud?" promptNeeded="false" repositoryContextId="_PpZ3YPpBEe28hPCwF9P5qQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oXciiQ9KEe6Np4xhilnAMg" name="connection_custom_configFilePath" prompt="connection_custom_configFilePath?" promptNeeded="false" repositoryContextId="_1kGyYPMBEe2VAeSx2XR4SQ" type="id_String" value="C:\Conf\talend_monitoring.ini"/>
+    <contextParameter comment="" internalId="_oXciig9KEe6Np4xhilnAMg" name="DbMonitoring_Password" prompt="DbMonitoring_Password?" promptNeeded="false" repositoryContextId="_ISGtIPMDEe2VAeSx2XR4SQ" type="id_Password" value=""/>
+    <contextParameter comment="" internalId="_oXciiw9KEe6Np4xhilnAMg" name="DbMonitoring_AdditionalParams" prompt="DbMonitoring_AdditionalParams?" promptNeeded="false" repositoryContextId="_ISGtIPMDEe2VAeSx2XR4SQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oXcijA9KEe6Np4xhilnAMg" name="DbMonitoring_Login" prompt="DbMonitoring_Login?" promptNeeded="false" repositoryContextId="_ISGtIPMDEe2VAeSx2XR4SQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oXcijQ9KEe6Np4xhilnAMg" name="DbMonitoring_Port" prompt="DbMonitoring_Port?" promptNeeded="false" repositoryContextId="_ISGtIPMDEe2VAeSx2XR4SQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oXcijg9KEe6Np4xhilnAMg" name="DbMonitoring_Schema" prompt="DbMonitoring_Schema?" promptNeeded="false" repositoryContextId="_ISGtIPMDEe2VAeSx2XR4SQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oXcijw9KEe6Np4xhilnAMg" name="DbMonitoring_Server" prompt="DbMonitoring_Server?" promptNeeded="false" repositoryContextId="_ISGtIPMDEe2VAeSx2XR4SQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oXcikA9KEe6Np4xhilnAMg" name="DbMonitoring_ODS" prompt="DbMonitoring_ODS?" promptNeeded="false" repositoryContextId="_ISGtIPMDEe2VAeSx2XR4SQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oXcikQ9KEe6Np4xhilnAMg" name="talend_cloud" prompt="talend_cloud?" promptNeeded="false" repositoryContextId="_PpZ3YPpBEe28hPCwF9P5qQ" type="id_String" value=""/>
     <contextParameter comment="" internalId="_70psog9LEe6Np4xhilnAMg" name="IDPlanif" prompt="IDPlanif?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter comment="" internalId="_70psow9LEe6Np4xhilnAMg" name="toDate" prompt="toDate?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter comment="" internalId="_TaIjARl6Ee6Fg8-Iivmz4w" name="versionPlanif" prompt="versionPlanif?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_AT3MgSJ1Ee-phIRx3BnEzA" name="connection_delimiter" prompt="connection_delimiter?" promptNeeded="false" repositoryContextId="_1kGyYPMBEe2VAeSx2XR4SQ" type="id_String" value="=="/>
+    <contextParameter comment="" internalId="_AT3MgSJ1Ee-phIRx3BnEzA" name="connection_custom_configFileDelimiter" prompt="connection_custom_configFileDelimiter?" promptNeeded="false" repositoryContextId="_1kGyYPMBEe2VAeSx2XR4SQ" type="id_String" value="=="/>
+    <contextParameter comment="" internalId="_NZAOA088Ee-kqJyhoVQrIw" name="URL_API_TMC" prompt="URL_API_TMC?" promptNeeded="false" repositoryContextId="_FDNRcE8gEe-kqJyhoVQrIw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_NZAOBE88Ee-kqJyhoVQrIw" name="chemin_trigger" prompt="chemin_trigger?" promptNeeded="false" repositoryContextId="_FDNRcE8gEe-kqJyhoVQrIw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_egyOUE88Ee-kqJyhoVQrIw" name="chemin_programmation" prompt="chemin_programmation?" promptNeeded="false" repositoryContextId="_FDNRcE8gEe-kqJyhoVQrIw" type="id_String" value=""/>
   </context>
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" internalId="_oXcikg9KEe6Np4xhilnAMg" name="connection_configFilePath" prompt="connection_configFilePath?" promptNeeded="false" repositoryContextId="_1kGyYPMBEe2VAeSx2XR4SQ" type="id_String" value="C:\Conf\talend_monitoring.ini"/>
-    <contextParameter comment="" internalId="_oXcikw9KEe6Np4xhilnAMg" name="connection_DbMonitoring_Password" prompt="connection_DbMonitoring_Password?" promptNeeded="false" repositoryContextId="_ISGtIPMDEe2VAeSx2XR4SQ" type="id_Password" value=""/>
-    <contextParameter comment="" internalId="_oXcilA9KEe6Np4xhilnAMg" name="connection_DbMonitoring_AdditionalParams" prompt="connection_DbMonitoring_AdditionalParams?" promptNeeded="false" repositoryContextId="_ISGtIPMDEe2VAeSx2XR4SQ" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_oXcilQ9KEe6Np4xhilnAMg" name="connection_DbMonitoring_Login" prompt="connection_DbMonitoring_Login?" promptNeeded="false" repositoryContextId="_ISGtIPMDEe2VAeSx2XR4SQ" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_oXcilg9KEe6Np4xhilnAMg" name="connection_DbMonitoring_Port" prompt="connection_DbMonitoring_Port?" promptNeeded="false" repositoryContextId="_ISGtIPMDEe2VAeSx2XR4SQ" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_oXcilw9KEe6Np4xhilnAMg" name="connection_DbMonitoring_Schema" prompt="connection_DbMonitoring_Schema?" promptNeeded="false" repositoryContextId="_ISGtIPMDEe2VAeSx2XR4SQ" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_oXcimA9KEe6Np4xhilnAMg" name="connection_DbMonitoring_Server" prompt="connection_DbMonitoring_Server?" promptNeeded="false" repositoryContextId="_ISGtIPMDEe2VAeSx2XR4SQ" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_oXcimQ9KEe6Np4xhilnAMg" name="connection_DbMonitoring_ODS" prompt="connection_DbMonitoring_ODS?" promptNeeded="false" repositoryContextId="_ISGtIPMDEe2VAeSx2XR4SQ" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_oXcimg9KEe6Np4xhilnAMg" name="connection_talend_cloud" prompt="connection_talend_cloud?" promptNeeded="false" repositoryContextId="_PpZ3YPpBEe28hPCwF9P5qQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oXcikg9KEe6Np4xhilnAMg" name="connection_custom_configFilePath" prompt="connection_custom_configFilePath?" promptNeeded="false" repositoryContextId="_1kGyYPMBEe2VAeSx2XR4SQ" type="id_String" value="C:\Conf\talend_monitoring.ini"/>
+    <contextParameter comment="" internalId="_oXcikw9KEe6Np4xhilnAMg" name="DbMonitoring_Password" prompt="DbMonitoring_Password?" promptNeeded="false" repositoryContextId="_ISGtIPMDEe2VAeSx2XR4SQ" type="id_Password" value=""/>
+    <contextParameter comment="" internalId="_oXcilA9KEe6Np4xhilnAMg" name="DbMonitoring_AdditionalParams" prompt="DbMonitoring_AdditionalParams?" promptNeeded="false" repositoryContextId="_ISGtIPMDEe2VAeSx2XR4SQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oXcilQ9KEe6Np4xhilnAMg" name="DbMonitoring_Login" prompt="DbMonitoring_Login?" promptNeeded="false" repositoryContextId="_ISGtIPMDEe2VAeSx2XR4SQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oXcilg9KEe6Np4xhilnAMg" name="DbMonitoring_Port" prompt="DbMonitoring_Port?" promptNeeded="false" repositoryContextId="_ISGtIPMDEe2VAeSx2XR4SQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oXcilw9KEe6Np4xhilnAMg" name="DbMonitoring_Schema" prompt="DbMonitoring_Schema?" promptNeeded="false" repositoryContextId="_ISGtIPMDEe2VAeSx2XR4SQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oXcimA9KEe6Np4xhilnAMg" name="DbMonitoring_Server" prompt="DbMonitoring_Server?" promptNeeded="false" repositoryContextId="_ISGtIPMDEe2VAeSx2XR4SQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oXcimQ9KEe6Np4xhilnAMg" name="DbMonitoring_ODS" prompt="DbMonitoring_ODS?" promptNeeded="false" repositoryContextId="_ISGtIPMDEe2VAeSx2XR4SQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oXcimg9KEe6Np4xhilnAMg" name="talend_cloud" prompt="talend_cloud?" promptNeeded="false" repositoryContextId="_PpZ3YPpBEe28hPCwF9P5qQ" type="id_String" value=""/>
     <contextParameter comment="" internalId="_70pspA9LEe6Np4xhilnAMg" name="IDPlanif" prompt="IDPlanif?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter comment="" internalId="_70pspQ9LEe6Np4xhilnAMg" name="toDate" prompt="toDate?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter comment="" internalId="_TaIjAhl6Ee6Fg8-Iivmz4w" name="versionPlanif" prompt="versionPlanif?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_AT3MgiJ1Ee-phIRx3BnEzA" name="connection_delimiter" prompt="connection_delimiter?" promptNeeded="false" repositoryContextId="_1kGyYPMBEe2VAeSx2XR4SQ" type="id_String" value="=="/>
+    <contextParameter comment="" internalId="_AT3MgiJ1Ee-phIRx3BnEzA" name="connection_custom_configFileDelimiter" prompt="connection_custom_configFileDelimiter?" promptNeeded="false" repositoryContextId="_1kGyYPMBEe2VAeSx2XR4SQ" type="id_String" value="=="/>
+    <contextParameter comment="" internalId="_NZAOBk88Ee-kqJyhoVQrIw" name="URL_API_TMC" prompt="URL_API_TMC?" promptNeeded="false" repositoryContextId="_FDNRcE8gEe-kqJyhoVQrIw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_NZAOB088Ee-kqJyhoVQrIw" name="chemin_trigger" prompt="chemin_trigger?" promptNeeded="false" repositoryContextId="_FDNRcE8gEe-kqJyhoVQrIw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_egyOUU88Ee-kqJyhoVQrIw" name="chemin_programmation" prompt="chemin_programmation?" promptNeeded="false" repositoryContextId="_FDNRcE8gEe-kqJyhoVQrIw" type="id_String" value=""/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
-    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="224"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="96"/>
     <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
     <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
@@ -70,8 +79,8 @@
     <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="true"/>
     <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="true"/>
     <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false"/>
-    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="context.connection_configFilePath"/>
-    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="context.connection_delimiter"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="context.connection_custom_configFilePath"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="context.connection_custom_configFileDelimiter"/>
     <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" value="false"/>
     <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" show="false" value="ISO-8859-15"/>
     <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
@@ -87,16 +96,16 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:Yi7PG/60MaU/HbRekHZVP4r1OIn8z2jiMr5eSdnk"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:VLAFI69nAmWrPttvVBDTN+x0Khw3PN88oJJJJU0l"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning"/>
     <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning"/>
     <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false"/>
-    <elementParameter field="CHECK" name="DISABLE_ERROR" value="false"/>
-    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false"/>
-    <elementParameter field="CHECK" name="DISABLE_INFO" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="true"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="true"/>
     <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
@@ -122,7 +131,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:qcdNhqknNgspzDa4bapQAlb7+nkotu8Dolw+FsTq"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:Xj5C2Lof5GgKJb1ouiL0dKXsz99B96wSZxmb6hrz"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -157,21 +166,19 @@
     <routinesParameter id="_cVjYcOmvEe2L8-p-ItuLMg" name="TalendStringUtil"/>
     <routinesParameter id="_cVXLMOmvEe2L8-p-ItuLMg" name="TalendString"/>
   </parameters>
-  <node componentName="tMSSqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="-160" posY="96">
+  <node componentName="tMSSqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="96">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBConnection_1"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_FglDUAE-Ee6bd8lFAV1BkQ"/>
     <elementParameter field="CLOSED_LIST" name="DRIVER" value="JTDS"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;DV-TEST-SQLSRV&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="context.DbMonitoring_Server"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
-    <elementParameter field="TEXT" name="PORT" value="&quot;1433&quot;"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;dbo&quot;"/>
+    <elementParameter field="TEXT" name="PORT" value="context.DbMonitoring_Port"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.DbMonitoring_Schema"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;ODS_schedule_monitoring&quot;"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;sa&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:eM3ulyJrJ914DZ5BmbKF5zLIsEbbCv5PkLF/NPUiCoTd9DK309O3zGNN"/>
+    <elementParameter field="TEXT" name="USER" value="context.DbMonitoring_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ct+TXKmI6IxDXX8Jnff/tU0SlNogiv/NVsHNp0RmTHmH762aHdQNYfygpcez3vNf9TEllqa7xR/Z"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.DbMonitoring_AdditionalParams"/>
     <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" show="false" value=""/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
@@ -187,7 +194,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPrejob_1"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tMSSqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="-160" posY="224">
+  <node componentName="tMSSqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="256">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
@@ -198,13 +205,13 @@
     <elementParameter field="TEXT" name="DB_SCHEMA" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:b3xO2MjrolB48QWvkYZAx8g6+ItgdPQiEz5rciAa"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:kDEl3tTSw+aQQlT5DsjldVaEo1C6DcRfdyCsgTJe"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;trigger&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select planif_ID, nom from [trigger]&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select planif_ID, nom, max(version) from [trigger] where actif = 1 group by planif_ID,nom&quot;"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
@@ -219,6 +226,8 @@
       <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="nom"/>
       <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="version"/>
+      <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
     <elementParameter field="CHECK" name="SET_QUERY_TIMEOUT" value="false"/>
     <elementParameter field="TEXT" name="QUERY_TIMEOUT_IN_SECONDS" show="false" value="30"/>
@@ -227,164 +236,7 @@
     <metadata connector="FLOW" name="tDBInput_1">
       <column comment="" key="true" length="100" name="planif_Id" nullable="true" originalLength="100" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="true" length="100" name="nom" nullable="true" originalLength="100" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-    </metadata>
-  </node>
-  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="64" posY="256">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_2"/>
-    <elementParameter field="EXTERNAL" name="MAP" value=""/>
-    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
-    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_SOPQgBP8Ee6kAfP3rWHHWg-tMap_2-PREVIEW.bmp"/>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
-    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
-    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
-    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
-    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
-    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
-    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="active_trig">
-      <column comment="" key="false" length="-1" name="planif_Id" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="true" length="10" name="version" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-    </metadata>
-    <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
-      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
-      <outputTables activateExpressionFilter="true" expressionFilter="row7.version != 0" name="active_trig" sizeState="INTERMEDIATE">
-        <mapperTableEntries expression="row1.planif_Id  " name="planif_Id" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row7.version " name="version" type="id_Integer"/>
-      </outputTables>
-      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row1" sizeState="INTERMEDIATE">
-        <mapperTableEntries name="planif_Id" nullable="true" type="id_String"/>
-        <mapperTableEntries name="nom" nullable="true" type="id_String"/>
-      </inputTables>
-      <inputTables activateExpressionFilter="true" lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row7" sizeState="INTERMEDIATE">
-        <mapperTableEntries name="methode" nullable="true" type="id_String"/>
-        <mapperTableEntries name="reponse" nullable="true" type="id_Integer"/>
-        <mapperTableEntries name="categorie" nullable="true" type="id_String"/>
-        <mapperTableEntries name="operation" nullable="true" type="id_String"/>
-        <mapperTableEntries name="dateM" nullable="true" type="id_String"/>
-        <mapperTableEntries name="utilisateur" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row1.planif_Id " name="id_planif" operator="=" type="id_String"/>
-        <mapperTableEntries expression="row1.nom " name="Nom" operator="=" type="id_String"/>
-        <mapperTableEntries name="version" type="id_Integer"/>
-      </inputTables>
-    </nodeData>
-  </node>
-  <node componentName="tMSSqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="-160" posY="352">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_2"/>
-    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
-    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
-    <elementParameter field="CLOSED_LIST" name="DRIVER" show="false" value="MSSQL_PROP"/>
-    <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
-    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;1433&quot;"/>
-    <elementParameter field="TEXT" name="DB_SCHEMA" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:Hwc41nB9locNhXp71oxaUzXPzoTCBloyPDO4N9FY"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_FglDUAE-Ee6bd8lFAV1BkQ - MODIFICATION"/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;MODIFICATION&quot;"/>
-    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT dbo.MODIFICATION.methode,&#10;&#9;&#9;dbo.MODIFICATION.reponse,&#10;&#9;&#9;dbo.MODIFICATION.categorie,&#10;&#9;&#9;dbo.MODIFICATION.operation,&#10;&#9;&#9;dbo.MODIFICATION.dateM,&#10;&#9;&#9;dbo.MODIFICATION.utilisateur,&#10;&#9;&#9;dbo.MODIFICATION.id_planif,&#10;&#9;&#9;dbo.MODIFICATION.Nom,&#10;&#9;&#9;MAX(dbo.MODIFICATION.version)&#10;FROM&#9;dbo.MODIFICATION where operation!='DELETE' &#13;&#10;Group by dbo.MODIFICATION.methode,&#13;&#10;&#9;&#9;dbo.MODIFICATION.reponse,&#13;&#10;&#9;&#9;dbo.MODIFICATION.categorie,&#13;&#10;&#9;&#9;dbo.MODIFICATION.operation,&#13;&#10;&#9;&#9;dbo.MODIFICATION.dateM,&#13;&#10;&#9;&#9;dbo.MODIFICATION.utilisateur,&#13;&#10;&#9;&#9;dbo.MODIFICATION.id_planif,&#13;&#10;&#9;&#9;dbo.MODIFICATION.Nom&quot;"/>
-    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
-    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
-    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
-    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="id_MSSQL"/>
-    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;noDatetimeStringSync=true&quot;"/>
-    <elementParameter field="CHECK" name="ACTIVE_DIR_AUTH" show="false" value="false"/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
-    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
-    <elementParameter field="TABLE" name="TRIM_COLUMN">
-      <elementValue elementRef="SCHEMA_COLUMN" value="methode"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="reponse"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="categorie"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="operation"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="dateM"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="utilisateur"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="id_planif"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Nom"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="version"/>
-      <elementValue elementRef="TRIM" value="false"/>
-    </elementParameter>
-    <elementParameter field="CHECK" name="SET_QUERY_TIMEOUT" value="false"/>
-    <elementParameter field="TEXT" name="QUERY_TIMEOUT_IN_SECONDS" show="false" value="30"/>
-    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="MODIFICATION" name="tDBInput_2">
-      <column comment="" key="false" length="10" name="methode" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="reponse" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="30" name="categorie" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="operation" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="100" name="dateM" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="100" name="utilisateur" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="true" length="100" name="id_planif" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="true" length="100" name="Nom" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="true" length="10" name="version" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-    </metadata>
-  </node>
-  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="320" posY="256">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_1"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
-    <elementParameter field="CHECK" name="DUMMY" show="false" value="true"/>
-    <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
-    <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
-    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
-    <elementParameter field="RADIO" name="PRINT_UNIQUE" show="false" value="true"/>
-    <elementParameter field="RADIO" name="PRINT_LABEL" show="false" value="false"/>
-    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" show="false" value="false"/>
-    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;|&quot;"/>
-    <elementParameter field="CHECK" name="PRINT_HEADER" show="false" value="false"/>
-    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" show="false" value="false"/>
-    <elementParameter field="CHECK" name="PRINT_COLNAMES" show="false" value="false"/>
-    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" show="false" value="false"/>
-    <elementParameter field="TABLE" name="LENGTHS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="planif_Id"/>
-      <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="version"/>
-      <elementValue elementRef="LENGTH" value="10"/>
-    </elementParameter>
-    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
-    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tLogRow_1">
-      <column comment="" key="false" length="-1" name="planif_Id" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="true" length="10" name="version" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
+      <column comment="" key="false" length="-1" name="version" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tUniqRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="512" posY="256">
@@ -392,6 +244,9 @@
     <elementParameter field="TABLE" name="UNIQUE_KEY">
       <elementValue elementRef="SCHEMA_COLUMN" value="planif_Id"/>
       <elementValue elementRef="KEY_ATTRIBUTE" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="nom"/>
+      <elementValue elementRef="KEY_ATTRIBUTE" value="false"/>
       <elementValue elementRef="CASE_SENSITIVE" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="version"/>
       <elementValue elementRef="KEY_ATTRIBUTE" value="false"/>
@@ -404,22 +259,19 @@
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tUniqRow_1">
-      <column comment="" key="false" length="-1" name="planif_Id" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="true" length="10" name="version" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
+      <column comment="" key="true" length="100" name="planif_Id" nullable="true" originalLength="100" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="true" length="100" name="nom" nullable="true" originalLength="100" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="version" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
     </metadata>
     <metadata connector="UNIQUE" name="UNIQUE">
-      <column comment="" key="false" length="-1" name="planif_Id" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="true" length="10" name="version" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
+      <column comment="" key="true" length="100" name="planif_Id" nullable="true" originalLength="100" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="true" length="100" name="nom" nullable="true" originalLength="100" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="version" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
     </metadata>
     <metadata connector="DUPLICATE" name="DUPLICATE">
-      <column comment="" key="false" length="-1" name="planif_Id" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="true" length="10" name="version" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
+      <column comment="" key="true" length="100" name="planif_Id" nullable="true" originalLength="100" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="true" length="100" name="nom" nullable="true" originalLength="100" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="version" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tFlowToIterate" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="768" posY="256">
@@ -431,7 +283,7 @@
   </node>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="960" posY="256">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="context.IDPlanif = row2.planif_Id;&#10;context.versionPlanif  = row2.version;&#10;System.out.println(&quot;IDPlanif : &quot;+context.IDPlanif);&#10;&#10;context.toDate = Long.toString(TalendDate.addDate(TalendDate.getCurrentDate(),7, &quot;yyyy&quot;).getTime());&#10;System.out.println(context.toDate);&#10;"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="context.IDPlanif = row8.planif_Id;&#10;context.versionPlanif = row8.version;&#10;System.out.println(&quot;IDPlanif : &quot;+context.IDPlanif);&#10;&#10;"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="LABEL" value="JAVA_def_context_idplan"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -439,8 +291,8 @@
   </node>
   <node componentName="tRESTClient" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="960" posY="448">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRESTClient_1"/>
-    <elementParameter field="TEXT" name="URL" value="&quot;https://api.eu.cloud.talend.com/tmc/v2.6&quot;"/>
-    <elementParameter field="TEXT" name="PATH" value="&quot;/schedules/&quot;+context.IDPlanif+&quot;/events&quot;"/>
+    <elementParameter field="TEXT" name="URL" value="context.URL_API_TMC"/>
+    <elementParameter field="TEXT" name="PATH" value="context.chemin_trigger+&quot;/&quot;+context.IDPlanif+context.chemin_programmation"/>
     <elementParameter field="CLOSED_LIST" name="METHOD" value="GET"/>
     <elementParameter field="CLOSED_LIST" name="CONTENT_TYPE" show="false" value="application/xml"/>
     <elementParameter field="CLOSED_LIST" name="ACCEPT_TYPE" value="*/*"/>
@@ -455,8 +307,8 @@
     <elementParameter field="CHECK" name="NEED_AUTH" value="true"/>
     <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" value="OAUTH2_BEARER"/>
     <elementParameter field="TEXT" name="AUTH_USERNAME" show="false" value="&quot;username&quot;"/>
-    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" show="false" value="enc:system.encryption.key.v1:0VedUpTxk/dl0XKcvXVXG+enBxV6SHTR38Eweo2yLobPFRpIyJ8="/>
-    <elementParameter field="TEXT" name="AUTH_BEARER_TOKEN" value="context.connection_talend_cloud"/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" show="false" value="enc:system.encryption.key.v1:vzYeeQD75IT8u1RJOhnWW/UFjOZ8nZjfhhp9pdYAlibQrEDEWcU="/>
+    <elementParameter field="TEXT" name="AUTH_BEARER_TOKEN" value="context.talend_cloud"/>
     <elementParameter field="CHECK" name="NEED_AUTHORIZATION" show="false" value="false"/>
     <elementParameter field="TEXT" name="ROLE" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_BUSINESS_CORRELATION" value="false"/>
@@ -484,7 +336,7 @@
     <elementParameter field="TEXT" name="PROXY_HOST" show="false" value="&quot;127.0.0.1&quot;"/>
     <elementParameter field="TEXT" name="PROXY_PORT" show="false" value="8080"/>
     <elementParameter field="TEXT" name="PROXY_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:Vg8/7D/VV5W4WQLGtduk5EKmaTSOoz8OgqUHF2p8"/>
+    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:kphekFS7ghfOtVJQouW+JBx9kDKnehajyXpnMDtd"/>
     <elementParameter field="TEXT" name="ARRAY_KEYS" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tRESTClient_1">
@@ -571,11 +423,11 @@
       <column comment="" key="true" length="-1" name="version" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables name="Var" sizeState="INTERMEDIATE">
-        <mapperTableEntries expression="TalendDate.addDate(TalendDate.parseDate(&quot;yyyy-MM-dd HH:mm:ss&quot;,row4.datetime), 2,&quot;HH&quot;) " name="date" type="id_Date"/>
+        <mapperTableEntries expression="Relational.ISNULL(row4.datetime)?null:TalendDate.addDate(TalendDate.parseDate(&quot;yyyy-MM-dd HH:mm:ss&quot;,row4.datetime), 2,&quot;HH&quot;) " name="date" type="id_Date"/>
       </varTables>
-      <outputTables name="progTrigg" sizeState="INTERMEDIATE">
+      <outputTables activateExpressionFilter="true" expressionFilter="!Relational.ISNULL(row4.datetime)" name="progTrigg" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="Var.date " name="dateProchaineExecution" type="id_Date"/>
         <mapperTableEntries expression="context.IDPlanif" name="id_planif" type="id_String"/>
         <mapperTableEntries expression="row4.nom " name="Nom" type="id_String"/>
@@ -608,31 +460,29 @@
   </node>
   <node componentName="tMSSqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="960" posY="576">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_3"/>
-    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_FglDUAE-Ee6bd8lFAV1BkQ"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;DV-TEST-SQLSRV&quot;"/>
-    <elementParameter field="CLOSED_LIST" name="DRIVER" value="JTDS"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;DV-TEST-SQLSRV&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" show="false" value="JTDS"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
-    <elementParameter field="TEXT" name="PORT" value="&quot;1433&quot;"/>
-    <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;dbo&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;ODS_schedule_monitoring&quot;"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;sa&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Te7r2LLUnE9+O2N4svF8kpcl2cidvI/R8rWwffNZ8UYR7db9e9N1DvgK"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_FglDUAE-Ee6bd8lFAV1BkQ - Trigger"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;1433&quot;"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" show="false" value="&quot;dbo&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;ODS_schedule_monitoring&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;sa&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:FISUCS7b9Tx9n24/Q2CbZFO8LMSbjEoDslMGXLagn/eY08qMwvt150cp"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;Trigger&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT dbo.\&quot;Trigger\&quot;.Nom,&#10;&#9;&#9;dbo.\&quot;Trigger\&quot;.Type,&#10;&#9;&#9;dbo.\&quot;Trigger\&quot;.Intervalle,&#10;&#9;&#9;dbo.\&quot;Trigger\&quot;.StartDate,&#10;&#9;&#9;dbo.\&quot;Trigger\&quot;.timeZone,&#10;&#9;&#9;dbo.\&quot;Trigger\&quot;.atTimes_type,&#10;&#9;&#9;dbo.\&quot;Trigger\&quot;.atTimes_time,&#10;&#9;&#9;dbo.\&quot;Trigger\&quot;.atTimes_startTime,&#10;&#9;&#9;dbo.\&quot;Trigger\&quot;.atTimes_endTime,&#10;&#9;&#9;dbo.\&quot;Trigger\&quot;.atTimes_intervalle,&#10;&#9;&#9;dbo.\&quot;Trigger\&quot;.atDays_type,&#10;&#9;&#9;dbo.\&quot;Trigger\&quot;.atDays_time,&#10;&#9;&#9;dbo.\&quot;Trigger\&quot;.cronExpression,&#10;&#9;&#9;dbo.\&quot;Trigger\&quot;.planif_ID,&#10;&#9;&#9;dbo.\&quot;Trigger\&quot;.Executable_ID,&#10;&#9;&#9;dbo.\&quot;Trigger\&quot;.version&#10;FROM&#9;dbo.\&quot;Trigger\&quot; where planif_ID = '&quot; +context.IDPlanif+&quot;'&quot;"/>
-    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
-    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT dbo.\&quot;Trigger\&quot;.Nom,&#10;&#9;&#9;dbo.\&quot;Trigger\&quot;.Type,&#10;&#9;&#9;dbo.\&quot;Trigger\&quot;.Intervalle,&#10;&#9;&#9;dbo.\&quot;Trigger\&quot;.StartDate,&#10;&#9;&#9;dbo.\&quot;Trigger\&quot;.timeZone,&#10;&#9;&#9;dbo.\&quot;Trigger\&quot;.atTimes_type,&#10;&#9;&#9;dbo.\&quot;Trigger\&quot;.atTimes_time,&#10;&#9;&#9;dbo.\&quot;Trigger\&quot;.atTimes_startTime,&#10;&#9;&#9;dbo.\&quot;Trigger\&quot;.atTimes_endTime,&#10;&#9;&#9;dbo.\&quot;Trigger\&quot;.atTimes_intervalle,&#10;&#9;&#9;dbo.\&quot;Trigger\&quot;.atDays_type,&#10;&#9;&#9;dbo.\&quot;Trigger\&quot;.atDays_time,&#10;&#9;&#9;dbo.\&quot;Trigger\&quot;.cronExpression,&#10;&#9;&#9;dbo.\&quot;Trigger\&quot;.planif_ID,&#10;&#9;&#9;dbo.\&quot;Trigger\&quot;.Executable_ID,&#10;&#9;&#9;dbo.\&quot;Trigger\&quot;.version,&#13;&#10;dbo.\&quot;Trigger\&quot;.actif&#10;FROM&#9;dbo.\&quot;Trigger\&quot; where planif_ID = '&quot; +context.IDPlanif+&quot;'&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="id_MSSQL"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="ACTIVE_DIR_AUTH" show="false" value="false"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
@@ -731,7 +581,7 @@
       </column>
     </metadata>
   </node>
-  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1568" posY="448">
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1600" posY="448">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_2"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="CHECK" name="DUMMY" show="false" value="true"/>
@@ -783,7 +633,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:ftgN5B0kZ64pM0453EG09ZkqPeqMwxUQ8yRdG4Kr"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:Gi/xDy71e7i+/iMtNAMULQnfj0vQNr3hj6GEoTxR"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;ProchaineExecution&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
@@ -894,7 +744,7 @@
   </node>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="480" posY="-32">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_2"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;Début - &quot;+jobName+&quot; - &quot;+TalendDate.getDate(&quot;dd/MM:/yyyy HH:mm:ss&quot;));&#10;//System.out.println(&quot;Context jeton &quot;+context.connection_talend_cloud);"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;Début - &quot;+jobName+&quot; - &quot;+TalendDate.getDate(&quot;dd/MM:/yyyy HH:mm:ss&quot;));&#10;//System.out.println(&quot;Context jeton &quot;+context.talend_cloud);&#10;context.toDate = Long.toString(TalendDate.addDate(TalendDate.getCurrentDate(),7, &quot;yyyy&quot;).getTime());&#10;System.out.println(context.toDate);&#10;"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="LABEL" value="Affichage_lancement"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -914,34 +764,14 @@
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="tJava_2">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
   </connection>
-  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tMap_2">
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tUniqRow_1">
     <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
-      <elementValue elementRef="TRACE_COLUMN" value="nom"/>
+      <elementValue elementRef="TRACE_COLUMN" value="version"/>
       <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
     </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
-  </connection>
-  <connection connectorName="FLOW" label="active_trig" lineStyle="0" metaname="active_trig" offsetLabelX="0" offsetLabelY="0" source="tMap_2" target="tLogRow_1">
-    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
-      <elementValue elementRef="TRACE_COLUMN" value="version"/>
-      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
-      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
-      <elementValue elementRef="TRACE_COLUMN" value="nom"/>
-      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
-      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
-    </elementParameter>
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="active_trig"/>
-  </connection>
-  <connection connectorName="FLOW" label="row7" lineStyle="8" metaname="tDBInput_2" offsetLabelX="0" offsetLabelY="0" source="tDBInput_2" target="tMap_2">
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row7"/>
-  </connection>
-  <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tLogRow_1" offsetLabelX="0" offsetLabelY="0" source="tLogRow_1" target="tUniqRow_1">
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row2"/>
   </connection>
   <connection connectorName="UNIQUE" label="row8" lineStyle="0" metaname="UNIQUE" offsetLabelX="0" offsetLabelY="0" source="tUniqRow_1" target="tFlowToIterate_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
@@ -1033,13 +863,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_b3c5a613-a407-42bf-901f-d7074aa22a2f"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>quDPRt6HQR2jJ72Ot4bKbDzR8EPHmhZLUYiiouCeNy+G1xr7YIvpHL2Qt3MTx15QgNP+GFWoICzj&#13;
-/nn4Vyt64A==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_c464557f-9d6d-4162-aee9-1e4796d2060e"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>RU3ZK/WgCz3IJif0NHSYGfw9GHD9/Aie66VDOVMMmXcElseENZ4Nc0qvYNigByB6y/VTASLViTh2&#13;
-CCFMstW7tw==</DigestValue></Reference></SignedInfo><SignatureValue>UHSIZ5sSBBSzMQxEQ92586yz1epEokq1sKnEI8tonkDg8R40Z1AUukqFtw0qUBy6lSqeinWTBnL/&#13;
-Jd/T+atIZ01w2PVKeXiv1N2T74xUq8R0ByKttQUHNtIHi9W6yWt4DvNFM4rmhUovaU52hLyJUGha&#13;
-JIyJJyJIRrb1FAre9aNXmY5YmcPWQYUvKQu9TM9Pg0IBTIywuNY2Zn9Cc0RWEYymIvWsNhYovYkv&#13;
-oSN117dL/dNeLcTuytEWNxrgYJTcFEwAb/ixRsub/Yft+eCjexCDSrO5ym3Ya1YrH3H9Mwof3+Vn&#13;
-dDb+hn+02kl2st2TZ/r91Gh9t9TVhhXukOmUAw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_76210fdc-051e-4227-8665-360630724f39"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ellSAyibp6oc4OUXp3yMqr/H/Tk4VzKDRIecYyWr7n/Q3JO5qYYv5dOPmUcKLwR9qpqIcdCHzBr0&#13;
+ZMmhEnd4ig==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_49b3437a-ae59-4be6-b5df-386387ff76c0"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>w7s/YE3AoEjPS4ceCKTTTH4twECJUyO8V6mJRVS7PYMJO0PCUxqZ08MBHk8ocNY7NgZnr0fic8I3&#13;
+aGeCs0Ssmg==</DigestValue></Reference></SignedInfo><SignatureValue>N92TKqm+sNEBAseCyvxlDw6FKElJwad69jIf9gp7pFDvhXEH22TlKVl4erqkg5hHZl5Xa8e1WsJy&#13;
+hj8uf32wwb1vWuBxA9egcrYLDbfJrHKfOQoyq7DeLByQH73d/liXqtiEfmcbGDxzfGmysYzibTKg&#13;
++ceHNBhVEIphFmxhTiglAyc8kDZtREffS/w1wCfVEBhO+2Lst0BAPzBiYp8zZRdWYBcLKuydjRU9&#13;
+UOh6NOUdsaIdeHdrKL9kUML8MqduP23rhCNqU3Xqp1x/rUJiEIkppEXN6QaaIPIR2JSGO5uwAJOX&#13;
+prfjEvl0OMAxyq9HsUi42eVks0RCicF4Hg7/Rg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1061,4 +891,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_c464557f-9d6d-4162-aee9-1e4796d2060e" Target="#_b3c5a613-a407-42bf-901f-d7074aa22a2f"><Timestamp>2024-06-06 07:59:47</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_49b3437a-ae59-4be6-b5df-386387ff76c0" Target="#_76210fdc-051e-4227-8665-360630724f39"><Timestamp>2024-07-31 13:05:23</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

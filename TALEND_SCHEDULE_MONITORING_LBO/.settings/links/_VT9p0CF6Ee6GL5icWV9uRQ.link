@@ -5,39 +5,79 @@
     "repoId" : "_ISGtIPMDEe2VAeSx2XR4SQ",
     "parameterList" : [ {
       "id" : "_ISZoEfMDEe2VAeSx2XR4SQ",
-      "name" : "connection_DbMonitoring_ODS"
+      "name" : "DbMonitoring_ODS"
     }, {
       "id" : "_ISZoEvMDEe2VAeSx2XR4SQ",
-      "name" : "connection_DbMonitoring_Password"
+      "name" : "DbMonitoring_Password"
     }, {
       "id" : "_ISZoE_MDEe2VAeSx2XR4SQ",
-      "name" : "connection_DbMonitoring_Server"
+      "name" : "DbMonitoring_Server"
     }, {
       "id" : "_ISZoFPMDEe2VAeSx2XR4SQ",
-      "name" : "connection_DbMonitoring_Port"
+      "name" : "DbMonitoring_Port"
     }, {
       "id" : "_ISZoFfMDEe2VAeSx2XR4SQ",
-      "name" : "connection_DbMonitoring_AdditionalParams"
+      "name" : "DbMonitoring_AdditionalParams"
     }, {
       "id" : "_ISZoFvMDEe2VAeSx2XR4SQ",
-      "name" : "connection_DbMonitoring_Schema"
+      "name" : "DbMonitoring_Schema"
     }, {
       "id" : "_ISZoF_MDEe2VAeSx2XR4SQ",
-      "name" : "connection_DbMonitoring_Login"
+      "name" : "DbMonitoring_Login"
     } ]
   }, {
     "contextName" : "Default",
     "repoId" : "_PpZ3YPpBEe28hPCwF9P5qQ",
     "parameterList" : [ {
       "id" : "_PpmrsfpBEe28hPCwF9P5qQ",
-      "name" : "connection_talend_cloud"
+      "name" : "talend_cloud"
     } ]
   }, {
     "contextName" : "Default",
     "repoId" : "_1kGyYPMBEe2VAeSx2XR4SQ",
     "parameterList" : [ {
       "id" : "_1kP8UfMBEe2VAeSx2XR4SQ",
-      "name" : "connection_configFilePath"
+      "name" : "connection_custom_configFilePath"
+    }, {
+      "id" : "_id90QCJHEe-phIRx3BnEzA",
+      "name" : "connection_custom_configFileDelimiter"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_FDNRcE8gEe-kqJyhoVQrIw",
+    "parameterList" : [ {
+      "id" : "_VUmS8U85Ee-kqJyhoVQrIw",
+      "name" : "chemin_execution_taches"
+    }, {
+      "id" : "_Tn-4wE88Ee-kqJyhoVQrIw",
+      "name" : "chemin_programmation"
+    }, {
+      "id" : "_FDgMYU8gEe-kqJyhoVQrIw",
+      "name" : "URL_API_TMC"
+    }, {
+      "id" : "_QRN6ok8jEe-kqJyhoVQrIw",
+      "name" : "chemin_environnement"
+    }, {
+      "id" : "_QRN6oE8jEe-kqJyhoVQrIw",
+      "name" : "chemin_artefact"
+    }, {
+      "id" : "_QRN6oU8jEe-kqJyhoVQrIw",
+      "name" : "chemin_workspace"
+    }, {
+      "id" : "_F8S4wE8kEe-kqJyhoVQrIw",
+      "name" : "chemin_tache"
+    }, {
+      "id" : "_G-qdQE87Ee-kqJyhoVQrIw",
+      "name" : "chemin_trigger"
+    }, {
+      "id" : "_FDgMYk8gEe-kqJyhoVQrIw",
+      "name" : "URL_AuditLog"
+    }, {
+      "id" : "_VUmS8E85Ee-kqJyhoVQrIw",
+      "name" : "chemin_execution_plans"
+    }, {
+      "id" : "_F8S4wU8kEe-kqJyhoVQrIw",
+      "name" : "chemin_plan"
     } ]
   } ]
 }
